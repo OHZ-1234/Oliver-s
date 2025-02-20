@@ -38,15 +38,16 @@
   </style>
 </head>
 
-<body>
+<body class="dark-mode"> <!-- 默认启用 dark mode -->
+
   <header>
     <img src="https://github.com/OHZ-1234/Crazyoz/raw/df94bb0b118bb0c382bc68f408832e966315549a/IMG_5767.JPG" 
          alt="Oliver Zhao Photo" style="width:300px; border-radius: 10px;">
     <h1 style="font-family: 'Shafarik', sans-serif;">Hu “Oliver" Zhao</h1>
     <h2 style="font-family: 'Shafarik', sans-serif;">Ph.D. student at Texas A&M University, College Station</h2>
     
-    <!-- Dark Mode 开关按钮 -->
-    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+    <!-- 移除或禁用 Dark Mode 开关按钮 -->
+    <!-- <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button> -->
   </header>
   
   <section id="education">
@@ -139,11 +140,11 @@
   </footer>
 
   <script>
-    function toggleDarkMode() {
-      document.body.classList.toggle('dark-mode');
-    }
+    // 删除切换按钮的 JavaScript
+    // function toggleDarkMode() {
+    //   document.body.classList.toggle('dark-mode');
+    // }
   </script>
 
 </body>
 </html>
-
